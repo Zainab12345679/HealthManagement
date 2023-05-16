@@ -10,7 +10,6 @@ void main() {
     routes: {
       'login': (context) => MyLogin(),
       'register': (context) => MyRegistration(),
-      'health':(context)=> MyHealth(),
     },
   ));
 }

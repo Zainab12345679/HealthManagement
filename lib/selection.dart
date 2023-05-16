@@ -1,7 +1,6 @@
 import 'package:health_app/registration.dart';
 import 'package:flutter/material.dart';
 
-
 import 'login_page.dart';
 
 
@@ -41,7 +40,7 @@ class _MySelectionState extends State<MySelection> {
 
               },
                 child: Text("Login As User"),),
-              SizedBox(height: 11),
+              SizedBox(height: 11,),
               ElevatedButton(onPressed: () {
                 Navigator.push(
                     context,
